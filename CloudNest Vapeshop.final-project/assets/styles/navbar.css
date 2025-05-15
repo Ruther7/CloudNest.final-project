@@ -1,0 +1,47 @@
+.vape-nav {
+   background-color: #1a1b2e; 
+  padding: 15px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 245, 255, 0.2); 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  max-width: 150px; 
+  height: auto;
+  flex-shrink: 0; 
+}
+
+.logo-img {
+  max-height: 90px;
+  width: auto;
+  object-fit: contain;
+  padding: 5px 0; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #e6e6e6;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover, .nav-links a.active {
+   color: #b026ff; 
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
+  color: white;
+}
